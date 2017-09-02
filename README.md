@@ -1,0 +1,1 @@
+# Example Pact Mocha NG4 project
