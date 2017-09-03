@@ -1,0 +1,13 @@
+<div>
+    <h1>Pact/Mocha/NG4</h1>
+    <p>
+        {{ content | async | json }}
+    </p>
+    <div class="form-group row">
+        <label for="example-text-input" class="col-2 col-form-label">Clicked</label>
+        <div class="col-10">
+            <input type="text" [value]="clickval" class="form-control" id="example-text-input">
+            <button (click)="increment()" class="btn btn-primary">Increment</button>
+        </div>
+    </div>
+</div>
